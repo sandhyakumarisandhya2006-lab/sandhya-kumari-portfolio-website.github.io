@@ -14,6 +14,47 @@ html, body {
   margin: 0;
   padding: 0;
 }
+        /*mobile responsive 1 */
+        @media (max-width: 768px) {
+  nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+        /* mobile responsive 2*/
+        @media (max-width: 768px) {
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  td, th {
+    min-width: 100px;
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+/* mobile responsive 3 */
+        body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+        
    /* Mobile Responsive */
     @media (max-width: 768px) {
       .hero h1 {
