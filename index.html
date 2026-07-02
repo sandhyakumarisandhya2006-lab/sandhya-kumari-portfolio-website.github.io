@@ -989,6 +989,40 @@ box-shadow:0 0 10px rgba(0,0,0,0.2);
 color:white;
     }
 }
+        @media (max-width: 768px) {
+  body {
+    padding-top: 70px; /* Navbar ke liye space */
+    overflow-x: hidden;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #1e293b;
+    z-index: 999;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .container, section, .card {
+    width: 100% !important;
+    padding: 15px !important;
+    margin: 10px 0 !important;
+    box-sizing: border-box;
+  }
+  
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  a {
+    word-break: break-all;
+  }
+}
 </style>
 </head>
 <body>
